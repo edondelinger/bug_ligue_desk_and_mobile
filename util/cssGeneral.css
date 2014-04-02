@@ -1,0 +1,180 @@
+html {
+font:normal 100%/1.2em "Trebuchet MS",Verdana,Helvetica,Arial,sans-serif;
+}
+
+fieldset {
+ 		display:block;
+ 		width:50%;
+		border: 1px dotted #353535;
+		padding:2px;
+ 		overflow:hidden;                   
+}
+
+label {
+	background:transparent none;
+	display: block;
+	width: 20%;
+	float: left;
+	padding-right: 1%;
+	text-align: left;
+}
+
+input {
+	margin-left: 1%;
+	width: 30%;
+	border: #CCC 1px solid;
+}
+
+input:hover, #ent input:focus {
+	border: #999 1px solid;
+	background-color: #DDEEFF;
+}
+
+input[type="submit"]
+{
+	border: #DDEEFF 1px solid;
+	width: 30%;
+}
+.erreur{ 
+   background-color:rgb(237,210,229);
+   color:rgb(203,28,128);
+   font-size:1.1em;
+   width:95%;
+}
+.message{ 
+   background-color:rgb(99, 184, 255);
+   color:rgb(0,0,205);
+   font-size:1.1em;
+   width:95%;
+}
+
+#bandeau {
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: #353535;
+    background-image:url(../images/banniere.png);
+    background-repeat:no-repeat;
+    height:150px;
+    background-position:center top;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: 20% 20%;     /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 20% 20%;        /* Opera 9.5 */
+    -webkit-background-size: 20% 20%;   /* Safari 3.0 */
+    background-size: 20% 20%;           /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+    color: #ffffff;
+}
+
+#menu{
+    height: 1.8em ;
+}
+
+
+#contenu{
+
+}
+
+#menu li {
+		list-style-type: none;
+		list-style-image:none;
+		float: left ; 
+		text-align: center;
+    width: 200px ; 
+    border: 1px solid #000000;
+    margin-right: 1px ; 
+    color: #fff ; 
+    background: #3785ff;
+}
+
+#menu li a {
+		//text-decoration:none;
+    color: #f5fff5;
+}
+
+.button{
+    background-color: #DDEEFF;
+    display: inline-block;
+    width: 160px;
+}
+
+.button a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+#liste_tickets li, #liste_tickets li a {
+		list-style-type: none;
+		list-style-image:none;
+		display:inline;
+    width:200px;
+    text-align:center;
+    border: 1px solid #000000;
+    vertical-align:middle;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    margin-right: 1px ;
+    color: #000000;
+}
+
+#liste_tickets{
+    padding-left: 5%;
+}
+#liste_tickets td.colonneid{
+    width:20px;
+}
+#liste_tickets td.colonnedate{
+    width:150px;
+}
+#liste_tickets td.colonnetech{
+    width:150px;
+}
+#liste_tickets td.colonneprod{
+    width:300px;
+}
+
+#liste_tickets tr:nth-child(odd){
+    background: #f5fff5;
+}
+#liste_tickets tr:nth-child(even){
+    background: rgba(179, 172, 255, 0.83);
+}
+/*
+#liste_tickets ul{
+    border-top: 2px solid lightgrey;
+}
+*/
+
+#detail_ticket{
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none;
+    padding:20px;
+    min-width:600px;
+    min-height: 300px;
+}
+
+#element_to_pop_up {
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none;
+    padding:20px;
+    min-width:400px;
+    min-height: 180px;
+}
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+}
+
+#pied{
+    background-color: #353535;
+    padding-top: 50px;
+    padding-left: 20px;
+    height:150px;
+    color: #ffffff;
+}
